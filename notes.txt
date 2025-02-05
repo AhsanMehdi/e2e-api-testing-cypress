@@ -1,0 +1,6 @@
+1- create folder in the desktop or whatever you would like to add
+2- open that folder in the vs code 
+3- in vs code open the terminal and run the following command "npm init -y"  [this command will install the cypress, please note that the command should be executed in the folder that you have created]
+4- now install the cypress using following command "npm install cypress --save-dev"
+5- now run the following command npx cypress open [it will open the cypress in browser just follow those steps] then close the browser after that you will find the e2e folder in cypress in e2e delete all sub folders
+6- in the e2e folder you have to create the files to test the apis
